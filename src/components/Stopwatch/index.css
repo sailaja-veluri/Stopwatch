@@ -1,0 +1,98 @@
+/* Write CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 20px;
+}
+.watch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+}
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  align-self: center;
+}
+.timer-container {
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+
+  padding-top: 20px;
+}
+.img-text-container {
+  display: flex;
+  margin-bottom: 0px;
+  align-self: center;
+}
+.timer-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+}
+.timer-text {
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.timer-in-digits {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0px;
+  align-self: center;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.buttons {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  height: 30px;
+  width: 80px;
+  padding-top: 6px;
+}
+.start {
+  background-color: green;
+}
+.stop {
+  background-color: red;
+}
+.reset {
+  background-color: #eaa800;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    justify-content: flex-start;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .watch-container {
+    width: 20vw;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .header {
+    font-size: 50px;
+  }
+}
